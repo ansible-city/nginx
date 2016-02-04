@@ -34,7 +34,7 @@ To install run `ansible-galaxy install ansible-city.nginx` or add this to your
 `roles.yml`
 
 ```YAML
-- name: ansible-city.nginx
+- src: ansible-city.nginx
   version: v1.0
 ```
 
@@ -71,5 +71,5 @@ To simply install Java:
         - build
 
   roles:
-    - name: ansible-city.nginx
+    - role: ansible-city.nginx
 ```
