@@ -1,6 +1,6 @@
 ---
 
-dependencies: []
+dependencies: [ ]
 
 galaxy_info:
   author: Wojtek Oledzki
@@ -11,6 +11,7 @@ galaxy_info:
   platforms:
     - name: Ubuntu
       versions:
-        - all
+        - precise
+        - trusty
   categories:
     - development
